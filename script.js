@@ -53,10 +53,7 @@ function displayWeather(data) {
     <p><strong>Condition:</strong> ${description}</p>
     <p><strong>Humidity:</strong> ${humidity}</p>
 
-    <div id="PostResult" class="post-resut">
-    <h3>Sample Posts</h3>
-        <ul id="postList"></ul>
-    </div>
+    
     `;
   
 }
