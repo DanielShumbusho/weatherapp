@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: "Arial, sans-serif";
+    background: linear-gradient(to right, #666, #fff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding:30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+}
+.SearchBox {
+    margin-top: 20px;
+}
+input[type="text"] {
+    padding: 10px;
+    width: 70px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #20466e;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3d6183;
+}
+.weatherResult {
+    margin-top: 20px;
+}
