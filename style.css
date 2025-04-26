@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font: "Arial, sans-serif";
-    background: linear-gradient(to right, #666, #fff);
+    background: #fff;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@ body {
 }
 input[type="text"] {
     padding: 10px;
-    width: 70px;
+    width: 150px;
     border: 1px solid #ccc;
     border-radius: 8px;
 }
